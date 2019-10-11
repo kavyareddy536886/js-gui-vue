@@ -12,7 +12,7 @@ const subtracter = new Vue({
     multiplication: function () {
       const i = parseInt(this.first)
       const j = parseInt(this.second)
-      return `The multiplication is ${multiply(i, j)}.`
+      return `The total tasks are :${multiply(i, j)}.`
     }
   }
   
