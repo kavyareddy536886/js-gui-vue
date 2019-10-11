@@ -15,7 +15,7 @@ const subtracter = new Vue({
       return `The difference is ${subtract(i, j, k)}.`
     }
   },
-  computed1: {
+  computed: {
     multiplication: function () {
       const t = parseInt(this.first)
       const s = parseInt(this.second)
