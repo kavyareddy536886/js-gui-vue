@@ -13,9 +13,7 @@ const subtracter = new Vue({
       const j = parseInt(this.second)
       const k = parseInt(this.third)
       return `The difference is ${subtract(i, j, k)}.`
-    }
-  },
-  computed1: {
+    },
     multiplication: function () {
       const i = parseInt(this.first)
       const j = parseInt(this.second)
@@ -23,4 +21,5 @@ const subtracter = new Vue({
       return `The multiplication is ${multiply(i, j, k)}.`
     }
   }
+  
 })
