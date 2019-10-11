@@ -24,7 +24,7 @@
   <link href="index.css" rel="stylesheet">
 
   <!-- Vue component styles -->
-  <link href="components/adder/adder.css" rel="stylesheet">
+  <!---<link href="components/adder/adder.css" rel="stylesheet">-->
   <link href="components/subtracter/subtracter.css" rel="stylesheet">
 
 </head>
@@ -33,7 +33,7 @@
   <main class="container-fluid  flex-fill">
 
     <div class="row">
-
+<!----
       <article id="adder" class="col-md-4 ">
         <h2>Vue is awesome!</h2>
         <p>Two-way data binding listens for changes and automatically updates.</p>
@@ -62,7 +62,7 @@
         </fieldset>
 
         <h3 class="mt-2">{{result}}</h3>
-      </article>
+      </article>-->
 
       <article id="subtracter" class="col-md-4 ">
         <h2>No build tools required!</h2>
@@ -70,26 +70,22 @@
         <p>This one subtracts!</p>
 
         <fieldset class="mt-2">
-          <label for="first">Enter first number (1 to 100):</label>
+          <label for="first">countOfStories:</label>
           <input v-model="first" id="first" type="number" min="1" max="100">
           <span id="firstWarning" class="text-danger"></span>
         </fieldset>
 
         <fieldset class="mt-2">
-          <label for="second">Enter second number (1 to 100):</label>
+          <label for="second">avgTasksPerStory:</label>
           <input v-model="second" id="second" type="number" min="1" max="100">
           <span id="secondWarning" class="text-danger"></span>
         </fieldset>
-        <fieldset class="mt-2">
-          <label for="third">Enter third number (1 to 100):</label>
-          <input v-model="third" id="third" type="number" min="1" max="100">
-          <span id="thirdWarning" class="text-danger"></span>
-        </fieldset>
+       
 
-        <h3 class="mt-2">{{difference}}</h3>
+        
         <h3 class="mt-2">{{multiplication}}</h3>
       </article>
-
+<!--
       <article id="coder" class="col-md-4 ">
         <h2>Build tools would help us combine HTML files</h2>
         <p>It's nice to start without having to add them, so everything goes in this one HTML file. </p>
@@ -112,7 +108,7 @@
         <p>HTML, CSS, and JS for each component can go in a single .vue file. </p>
         <p>Learn more at <a href="https://vuejs.org/">Vue.js</a>! </p>
       </article>
-
+    -->
     </div>
 
   </main>
@@ -148,9 +144,9 @@
 
   <!-- Vue components -->
 
-  <script src="components/adder/adder.js"></script>
+  <!----<script src="components/adder/adder.js"></script>-->
   <script src="components/subtracter/subtracter.js"></script>
-  <script src="components/coder/coder.js"></script>
+  <!--<script src="components/coder/coder.js"></script>-->
 </body>
 
 </html>
