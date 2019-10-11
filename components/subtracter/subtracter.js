@@ -17,10 +17,10 @@ const subtracter = new Vue({
   },
   computed: {
     multiplication: function () {
-      const t = parseInt(this.first)
-      const s = parseInt(this.second)
-      const u = parseInt(this.third)
-      return `The multiplication is ${multiply(t, s, u)}.`
+      const i = parseInt(this.first)
+      const j = parseInt(this.second)
+      const k = parseInt(this.third)
+      return `The multiplication is ${multiply(i, j, k)}.`
     }
   }
 })
